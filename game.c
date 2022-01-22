@@ -323,6 +323,6 @@ int main(int argc, char *argv[])
     }
     printf("\nWinner: %i", (int)result);
     clock_t end_clock = clock();
-    printf("\nProgram Execution Time : %d ms\n", (end_clock - start_clock));
+    printf("\nExecution Time : %d ms\n", (end_clock - start_clock));
     return 0;
 }
